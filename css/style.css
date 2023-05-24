@@ -1,0 +1,288 @@
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Hind', sans-serif;
+  .logo{
+    position:relative;
+    height: 150px;
+    width:100px;
+    overflow:hidden; 
+    cursor: pointer;
+  }
+  .logo img{
+    z-index: 100;
+    background-color: rgba(o,0,0,0.0);
+  }
+  .pupil{
+    position:absolute;
+    width:4px;
+    height:12px;
+    background-color:#272727;
+    border-radius:15px;
+    top:47px;
+    left:23px;
+  }
+  .lid{
+    position:absolute;
+    width:15px;
+    height:1px;
+    top:44px;
+    left:15px;
+    border-radius:15px;
+    z-index:6;
+    transform:rotate(-13deg);
+  }
+  .lower-lid{
+    position:absolute;
+    background-color: #222345;
+    width:15px;
+    height:4px;
+    top:59px;
+    left:18px;
+    border-radius:15px;
+    z-index:6;
+    transform:rotate(-17deg);
+  }
+  .logo:hover .lid{
+    animation:blink 0.5s ease-in 3;
+  }
+  .logo:active .lid{
+    animation:blink 0.5s ease-in 3;
+  }
+  
+  @keyframes blink {
+    from {
+    width:15px;
+    height:1px;
+    top:44px;
+    left:15px;
+    }
+    50% {
+    width:20px;
+    height:9px;
+    background-color:#222345;
+    }
+    to {
+    width:22px;
+    height:18px;
+    background-color:#222345;
+    }
+  }
+
+body{
+    background-color: #F5F0F6;
+    color: #222345;
+}
+p{
+    color: #222345;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+nav{
+    background-color: #F5F0F6 !important;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32px;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 25px;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #222345;
+    --bs-nav-link-hover-color: #222345;
+    --bs-nav-link-disabled-color: #222345;
+}
+.nav-item{
+    border-bottom:3px ridge #222345;
+    width: 230px;
+    align-self: self-end;
+}
+.me-auto{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.right{
+    display: none;
+}
+.nav-item:hover{
+    border-bottom: 3px solid #BC7C9C;
+}
+.jumbotron{
+    margin: 0 auto;
+}
+.jumbotron img{
+    width:75%;
+    height: auto;
+}
+h1{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 60px;
+    color: #222345;
+}
+h3{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 32px;
+    color: #222345;
+}
+.introduction{
+    background-color:#F5F0F6;
+}
+.process{
+    background-image: url(images/arrow-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.discover img{
+    width: 2rem;
+    height: auto;
+}
+.define img{
+    width: 2rem;
+    height: auto;
+}
+.develop img{
+    width: 2rem;
+    height: auto;
+}
+.deliver img{
+    width: 2rem;
+    height: auto;
+}
+.discover-box{
+    background-color: #F5F0F6;
+}
+.discover-box p{
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+.user-persona{
+    background-color: #BC7C9C;
+}
+.user-persona img{
+    width:70%;
+    height: auto;
+}
+.user-persona h4{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 24px;
+}
+.user-persona ul{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+}
+.user-persona .list-item{
+    background-color: #F5F0F6;
+}
+.user-persona h5{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 20px;
+}
+.listColumn{
+    background-color:#F5F0F6;
+}
+.test{
+    width: 40%;
+}
+#custom-cards h5{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 20px;
+}
+.prob-state{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-insight{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.matrix{
+    width:100vw;
+}
+.card .zoom-icon-box{
+    position: relative;
+    top: 3%;
+    left: 95%;
+}
+.zoom-icon-box:hover{
+    cursor: pointer;
+}
+
+#exampleModal h5{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 20px;
+}
+.modal-body{
+    overflow:scroll
+}
+.modal-body img{
+    width:1300px;
+    height: auto;
+}
+
+  .com-an{
+    background: #F5F0F6;
+  }
+  .competitor{
+    border:4px double #BC7C9C;
+    border-radius: 10px;
+  }
+  .com-an h5{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 20px;
+  }
+  .screenshot{
+    width:48%;
+    height: auto;
+  }
+
+  .sketch{
+    width:23%;
+    height: auto;
+  }
+  .delivery h5{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #222345;
+    font-size: 20px;
+}
+
+  .footer .test{
+    width:320px;
+    height: auto;
+  }
+  .footer{
+    font-family: 'Hind', sans-serif;
+    font-size: 16;
+    color: #222345;
+  }
+  .stars img{
+    width:95%;
+  }
+  .lo-fi{
+    width:95%;
+    justify-self: center;
+  }
+  .prototype{
+    width:32%;
+  }
+  .promo{
+    width:90%;
+  }
+  .SM{
+    width: 23px;
+    height: auto;
+  }
+  .footText{
+    text-align: end;
+  }
+  .card{
+    border:none !important;
+  }
